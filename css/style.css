@@ -1,0 +1,351 @@
+html, body {
+    margin: 0;
+    height:100%;
+    background-color: #EBEAEA;
+    
+    }
+    
+html {
+    scroll-behavior: smooth;
+}              
+    
+    .bg-container {
+        margin: 0%;
+        background-repeat: no-repeat;
+        background-position: top;
+        /* overflow: scroll; */
+        height: 100%;
+        width: 100%;
+        
+    }
+    
+    
+    #about {
+        position: fixed;
+        top: 5%;
+        left: 69%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #0000;
+        background-image: url("/images/about1.png");
+        background-repeat: no-repeat;
+        height: 57px;
+        width: 70px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        
+        }
+    
+    #about:hover {
+        position: fixed;
+        background-image: url("/images/about2.png");
+        background-repeat: no-repeat;
+        
+    }
+
+    #about:active {
+        background-image: url("/images/about3.png");
+        background-repeat: no-repeat;
+        transition-duration: 600ms;
+
+        
+    }
+
+    #aboutShield {
+        background-image: url(/images/shield1.png);
+        background-size: 100%;
+        background-color: #0000;
+        background-repeat: no-repeat;
+        height: 70px;
+        width: 70px;
+        border: none;
+        cursor: pointer;
+        margin-top: -4%;
+        max-width: 40%;
+        }
+
+    
+    
+    #aboutShield:hover {
+        background-image: url("/images/shield1hover.png");
+        background-repeat: no-repeat; 
+    
+    } 
+
+    #aboutOverlay {
+        position: fixed; /* Sit on top of the page content */
+        display: none; /* Hidden by default */
+        width: 100%; /* Full width (cover the whole page) */
+        height: 100%; /* Full height (cover the whole page) */
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+        z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+        cursor: pointer; /* Add a pointer on hover */
+      }
+    
+
+   
+    
+    
+    #work {
+        background-image: url("/images/work1.png");
+        background-repeat: no-repeat;
+        height: 57px;
+        width: 70px;
+        position: fixed;
+        top: 5%;
+        left: 76%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #0000;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        
+        }
+    
+    #work:hover {
+        position: fixed;
+        background-image: url("/images/work2.png");
+        background-repeat: no-repeat;
+        
+    }
+
+    #workShield {
+        background-image: url(/images/shield2.png);
+        background-color: #0000;
+        background-repeat: no-repeat;
+        height: 70px;
+        width: 70px;
+        border: none;
+        cursor: pointer;
+        }
+
+    
+    
+    #workShield:hover {
+        background-image: url("/images/shield2hover.png");
+        background-repeat: no-repeat; 
+    }
+
+    #work:active {
+        background-image: url("/images/work3.png");
+        background-repeat: no-repeat;
+        transition-duration: 600ms;
+
+        
+    }
+
+    
+
+
+    #contact {
+        position: fixed;
+        top: 5%;
+        left: 83%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #0000;
+        background-image: url("/images/contact1.png");
+        background-repeat: no-repeat;
+        height: 57px;
+        width: 70px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        }
+        
+    #contact:hover {
+        position: fixed;
+        background-image: url("/images/contact2.png");
+        background-repeat: no-repeat;
+    }
+
+    #contact:active {
+        background-image: url("/images/contact3.png");
+        background-repeat: no-repeat;
+        transition-duration: 600ms;
+
+        
+    }
+
+    #contactShield {
+        background-image: url(/images/shield3.png);
+        background-color: #0000;
+        background-repeat: no-repeat;
+        height: 70px;
+        width: 70px;
+        border: none;
+        cursor: pointer;
+        }
+    
+    #contactShield:hover {
+        background-image: url("/images/shield3hover.png");
+        background-repeat: no-repeat; 
+    }
+
+
+
+
+    #flag4btn {
+        position: fixed;
+        top: 5%;
+        left: 90%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #0000;
+        background-image: url("/images/about1.png");
+        background-repeat: no-repeat;
+        height: 57px;
+        width: 70px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        }
+    
+    #flag4btn:hover {
+        position: fixed;
+        background-image: url("/images/about2.png");
+        background-repeat: no-repeat;
+        
+    }
+
+    #flag4btn:active {
+        background-image: url("/images/about3.png");
+        background-repeat: no-repeat;
+        transition-duration: 600ms;
+
+        
+    }
+    
+    #topbtn {
+        background-repeat: no-repeat;
+        position: fixed;
+        top: 90%;
+        left: 90%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #0000;
+        background-image: url("/images/back\ to\ top1.png");
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        height: 95px;
+        width: 116px;
+        transition-duration: 600ms;
+        
+        }
+    
+    #topbtn:hover {
+        position: fixed;
+        background-image: url("/images/back\ to\ top2.png");
+        background-repeat: no-repeat;
+        transition-duration: 600ms;
+    }
+
+    #topbtn:active {
+        background-image: url("/images/back\ to\ top3.png");
+        background-repeat: no-repeat;
+        transition-duration: 600ms;
+
+        
+    }
+    
+    
+    h1 {
+        font-family: 'Bad Script', cursive;
+       font-size: 3vw;
+       /* border: 3px solid black; */
+    }
+    
+    p {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: lighter;
+        font-size:1.7vw;
+        /* border: 3px solid black; */
+        margin-top: -7%;
+    }
+    
+.scroll {
+position: relative;
+width: 100%;
+}
+
+#aboutMe {
+    position: absolute;
+    margin-top:-372%;
+    margin-left: 10%;
+    width:31%;
+    
+    border: 3px solid black;
+    text-align: center;
+  
+}
+
+#scrollToAbout {
+    position: absolute;
+    margin-top:-382%;
+    margin-left: 10%;
+    width:30%;
+     
+}
+
+
+#myWork {
+    position: absolute;
+    margin-top:-301%;
+    margin-left: 58%;
+    width:30%;
+    border: 3px solid black;
+    text-align: center;
+    
+}
+
+#scrollToWork {
+    position: absolute;
+    margin-top:-311%;
+    margin-left: 58%;
+    width:30%;
+    
+}
+
+#contactMe {
+    width: 30%;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: -158.5%;
+    border: 3px solid black;
+    text-align: center;
+    
+}
+
+#scrollToContact {
+    position: absolute;
+    margin-top:-168.5%;
+    margin-left: 10%;
+    width:30%;
+     
+}
+
+#flag4 {
+    position: absolute;
+    margin-top:-87.5%;
+    margin-left: 58%;
+    width:30%;
+    border: 3px solid black;
+    text-align: center;
+    
+}
+
+#scrollToFlag4 {
+    position: absolute;
+    margin-top:-97.5%;
+    margin-left: 58%;
+    width:30%;
+     
+}
+
