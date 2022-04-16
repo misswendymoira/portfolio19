@@ -31,6 +31,7 @@ function aboutOn() {
     document.getElementById("aboutOverlay").style.display = "block";
   }
   
-  function aboutOff() {
-    document.getElementById("aboutOverlay").style.display = "none";
+
+  function aboutClose() {
+    document.getElementById("aboutOverlay").style.display = "none"; 
   }
