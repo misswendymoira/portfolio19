@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     height:100%;
-    background-color: #EBEAEA;
+    background-color: #EAF8FF;
     
     }
     
@@ -23,7 +23,7 @@ html {
         background-repeat: no-repeat;
         background-size:contain;
         background-color: #0000;
-        background-image: url("/images/about1.png");
+        background-image: url("/images/colorabout.png");
         position: fixed;
         top: 5%;
         left: 66%;
@@ -35,7 +35,7 @@ html {
         }
     
     #about:hover {
-        background-image: url("/images/about2.png");
+        background-image: url("/images/colorabout2.png");
         background-repeat: no-repeat;
         height: 8%;
         width: 5%;
@@ -43,7 +43,7 @@ html {
     }
 
     #about:active {
-        background-image: url("/images/about3.png");
+        background-image: url("/images/colorabout3.png");
         background-repeat: no-repeat;
         transition-duration: 600ms;
 
@@ -56,8 +56,8 @@ html {
         background-color: #0000;
         background-image: url("/images/shield1.png");
         position: absolute;
-        margin-top: 118.5%;
-        left: 23.1%;
+        margin-top: 117.75%;
+        left: 23.75%;
         height: 5%;
         width: 5%;
         border: none;
@@ -178,7 +178,7 @@ html {
         background-repeat: no-repeat;
         background-size:contain;
         background-color: #0000;
-        background-image: url("/images/work1.png");
+        background-image: url("/images/colorwork.png");
         position: fixed;
         top: 5%;
         left: 74%;
@@ -190,7 +190,7 @@ html {
         }
     
     #work:hover {
-        background-image: url("/images/work2.png");
+        background-image: url("/images/colorwork2.png");
         background-repeat: no-repeat;
         height: 8%;
         width: 5%;
@@ -203,8 +203,8 @@ html {
         background-color: #0000;
         background-image: url("/images/shield2.png");
         position: absolute;
-        margin-top: 189.5%;
-        left: 71.59%;
+        margin-top: 188%;
+        left: 72%;
         height: 5%;
         width: 5%;
         border: none;
@@ -220,7 +220,7 @@ html {
     }
 
     #work:active {
-        background-image: url("/images/work3.png");
+        background-image: url("/images/colorwork3.png");
         background-repeat: no-repeat;
         transition-duration: 600ms;
 
@@ -234,7 +234,7 @@ html {
         background-repeat: no-repeat;
         background-size:contain;
         background-color: #0000;
-        background-image: url("/images/contact1.png");
+        background-image: url("/images/colorcontact.png");
         position: fixed;
         top: 5%;
         left: 82%;
@@ -245,14 +245,14 @@ html {
         }
         
     #contact:hover {
-        background-image: url("/images/contact2.png");
+        background-image: url("/images/colorcontact2.png");
         background-repeat: no-repeat;
         height: 8%;
         width: 5%;
     }
 
     #contact:active {
-        background-image: url("/images/contact3.png");
+        background-image: url("/images/colorcontact3.png");
         background-repeat: no-repeat;
         transition-duration: 600ms;
 
@@ -265,8 +265,8 @@ html {
         background-color: #0000;
         background-image: url("/images/shield2.png");
         position: absolute;
-        margin-top: 331.75%;
-        left: 23.25%;
+        margin-top: 330%;
+        left: 24%;
         height: 5%;
         width: 5%;
         border: none;
@@ -319,8 +319,8 @@ html {
         background-color: #0000;
         background-image: url("/images/shield2.png");
         position: absolute;
-        margin-top: 402.75%;
-        left: 71.1%;
+        margin-top: 401%;
+        left: 71.5%;
         height: 5%;
         width: 5%;
         border: none;
@@ -339,7 +339,7 @@ html {
         background-repeat: no-repeat;
         background-size:contain;
         background-color: #0000;
-        background-image: url("/images/back\ to\ top1.png");
+        background-image: url("/images/colorbacktotop1.png");
         position: fixed;
         top: 88%;
         left: 88%;
@@ -354,13 +354,13 @@ html {
     
     #topbtn:hover {
         position: fixed;
-        background-image: url("/images/back\ to\ top2.png");
+        background-image: url("/images/colorbacktotop2.png");
         background-repeat: no-repeat;
         transition-duration: 600ms;
     }
 
     #topbtn:active {
-        background-image: url("/images/back\ to\ top3.png");
+        background-image: url("/images/colorbacktotop3.png");
         background-repeat: no-repeat;
         transition-duration: 600ms;
 
@@ -389,7 +389,7 @@ width: 100%;
 
 #aboutMe {
     position: absolute;
-    margin-top:-372%;
+    margin-top:-375%;
     margin-left: 10%;
     width:31%;
     
@@ -409,7 +409,7 @@ width: 100%;
 
 #myWork {
     position: absolute;
-    margin-top:-301%;
+    margin-top:-304%;
     margin-left: 58%;
     width:30%;
     border: 3px solid black;
@@ -429,7 +429,7 @@ width: 100%;
     width: 30%;
     position: absolute;
     margin-left: 10%;
-    margin-top: -158.5%;
+    margin-top: -162%;
     border: 3px solid black;
     text-align: center;
     
@@ -445,7 +445,7 @@ width: 100%;
 
 #flag4 {
     position: absolute;
-    margin-top:-87.5%;
+    margin-top:-91%;
     margin-left: 58%;
     width:30%;
     border: 3px solid black;
